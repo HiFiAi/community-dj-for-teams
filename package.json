@@ -1,0 +1,27 @@
+{
+  "name": "build",
+  "version": "0.1.0",
+  "description": "Build scripts for the Community DJ project.",
+  "main": "index.js",
+  "scripts": {
+    "install": "lerna bootstrap --hoist",
+    "build": "lerna run build",
+    "clean": "lerna run clean",
+    "test": "lerna run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HiFiAi/community-dj-for-teams.git"
+  },
+  "author": "stevenic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HiFiAi/community-dj-for-teams/issues"
+  },
+  "homepage": "https://github.com/HiFiAi/community-dj-for-teams#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "typedoc": "^0.22.15",
+    "typescript": "^4.6.4"
+  }
+}
